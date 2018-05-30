@@ -1,0 +1,417 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/yuan/.nvm/versions/node/v5.1.0/bin/node',
+1 verbose cli   '/home/yuan/.nvm/versions/node/v5.1.0/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'eslint-config-standard',
+1 verbose cli   'eslint-plugin-import',
+1 verbose cli   'eslint-plugin-mode',
+1 verbose cli   'eslint-plugin-node',
+1 verbose cli   'eslint-plugin-promise',
+1 verbose cli   'eslint-plugin-standard',
+1 verbose cli   'istanbul',
+1 verbose cli   'mocha',
+1 verbose cli   'supertest',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData eslint-config-standard@^11.0.0
+8 silly fetchPackageMetaData eslint-plugin-import@^2.11.0
+9 silly fetchPackageMetaData eslint-plugin-mode
+10 silly fetchPackageMetaData eslint-plugin-node@^6.0.1
+11 silly fetchPackageMetaData eslint-plugin-promise@^3.7.0
+12 silly fetchPackageMetaData eslint-plugin-standard@^3.0.1
+13 silly fetchPackageMetaData istanbul@^0.4.5
+14 silly fetchPackageMetaData mocha@^5.1.0
+15 silly fetchPackageMetaData supertest@^3.0.0
+16 silly fetchNamedPackageData eslint-config-standard
+17 silly mapToRegistry name eslint-config-standard
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-standard
+21 silly fetchNamedPackageData eslint-plugin-import
+22 silly mapToRegistry name eslint-plugin-import
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-import
+26 silly fetchNamedPackageData eslint-plugin-node
+27 silly mapToRegistry name eslint-plugin-node
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-node
+31 silly fetchNamedPackageData eslint-plugin-promise
+32 silly mapToRegistry name eslint-plugin-promise
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-promise
+36 silly fetchNamedPackageData eslint-plugin-standard
+37 silly mapToRegistry name eslint-plugin-standard
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-standard
+41 silly fetchNamedPackageData istanbul
+42 silly mapToRegistry name istanbul
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/istanbul
+46 silly fetchNamedPackageData mocha
+47 silly mapToRegistry name mocha
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/mocha
+51 silly fetchNamedPackageData supertest
+52 silly mapToRegistry name supertest
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/supertest
+56 silly fetchNamedPackageData eslint-plugin-mode
+57 silly mapToRegistry name eslint-plugin-mode
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-mode
+61 verbose request uri https://registry.npmjs.org/eslint-plugin-mode
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 09:18:17
+64 verbose request id 608e5f1e83196c39
+65 http request GET https://registry.npmjs.org/eslint-plugin-mode
+66 verbose request uri https://registry.npmjs.org/eslint-config-standard
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 09:18:17
+69 verbose etag "5a9d03c3-1a2d9"
+70 verbose lastModified Mon, 5 Mar 2018 8:45:55 GMT
+71 http request GET https://registry.npmjs.org/eslint-config-standard
+72 verbose request uri https://registry.npmjs.org/eslint-plugin-promise
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 09:18:17
+75 verbose etag "5aa5d3b5-9c28"
+76 verbose lastModified Mon, 12 Mar 2018 1:11:17 GMT
+77 http request GET https://registry.npmjs.org/eslint-plugin-promise
+78 verbose request uri https://registry.npmjs.org/eslint-plugin-node
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 09:18:17
+81 verbose etag "5a8fe0c3-19a6b"
+82 verbose lastModified Fri, 23 Feb 2018 9:37:07 GMT
+83 http request GET https://registry.npmjs.org/eslint-plugin-node
+84 verbose request uri https://registry.npmjs.org/eslint-plugin-standard
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 09:18:17
+87 verbose etag "59dd4c35-5daf"
+88 verbose lastModified Tue, 10 Oct 2017 22:39:49 GMT
+89 http request GET https://registry.npmjs.org/eslint-plugin-standard
+90 verbose request uri https://registry.npmjs.org/eslint-plugin-import
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 09:18:17
+93 verbose etag "5acf3fab-3481b"
+94 verbose lastModified Thu, 12 Apr 2018 11:14:51 GMT
+95 http request GET https://registry.npmjs.org/eslint-plugin-import
+96 verbose request uri https://registry.npmjs.org/istanbul
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 09:18:17
+99 verbose etag "5aa522f2-4dac5"
+100 verbose lastModified Sun, 11 Mar 2018 12:37:06 GMT
+101 http request GET https://registry.npmjs.org/istanbul
+102 verbose request uri https://registry.npmjs.org/supertest
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 09:18:17
+105 verbose etag "5ac97f84-c2a6"
+106 verbose lastModified Sun, 8 Apr 2018 2:33:40 GMT
+107 http request GET https://registry.npmjs.org/supertest
+108 verbose request uri https://registry.npmjs.org/mocha
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 09:18:17
+111 verbose etag "5acfda47-faf4e"
+112 verbose lastModified Thu, 12 Apr 2018 22:14:31 GMT
+113 http request GET https://registry.npmjs.org/mocha
+114 http 304 https://registry.npmjs.org/istanbul
+115 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+115 verbose headers   via: '1.1 varnish',
+115 verbose headers   'cache-control': 'max-age=300',
+115 verbose headers   etag: '"5aa522f2-4dac5"',
+115 verbose headers   age: '733',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+115 verbose headers   'x-cache': 'HIT',
+115 verbose headers   'x-cache-hits': '1',
+115 verbose headers   'x-timer': 'S1524100698.091374,VS0,VE1',
+115 verbose headers   vary: 'Accept-Encoding, Accept' }
+116 silly get cb [ 304,
+116 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     'cache-control': 'max-age=300',
+116 silly get     etag: '"5aa522f2-4dac5"',
+116 silly get     age: '733',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-nrt6126-NRT',
+116 silly get     'x-cache': 'HIT',
+116 silly get     'x-cache-hits': '1',
+116 silly get     'x-timer': 'S1524100698.091374,VS0,VE1',
+116 silly get     vary: 'Accept-Encoding, Accept' } ]
+117 verbose etag https://registry.npmjs.org/istanbul from cache
+118 verbose get saving istanbul to /home/yuan/.npm/registry.npmjs.org/istanbul/.cache.json
+119 http 304 https://registry.npmjs.org/eslint-plugin-import
+120 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+120 verbose headers   via: '1.1 varnish',
+120 verbose headers   'cache-control': 'max-age=300',
+120 verbose headers   etag: '"5acf3fab-3481b"',
+120 verbose headers   age: '259',
+120 verbose headers   connection: 'keep-alive',
+120 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+120 verbose headers   'x-cache': 'HIT',
+120 verbose headers   'x-cache-hits': '1',
+120 verbose headers   'x-timer': 'S1524100698.120285,VS0,VE1',
+120 verbose headers   vary: 'Accept-Encoding, Accept' }
+121 silly get cb [ 304,
+121 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+121 silly get     via: '1.1 varnish',
+121 silly get     'cache-control': 'max-age=300',
+121 silly get     etag: '"5acf3fab-3481b"',
+121 silly get     age: '259',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-served-by': 'cache-nrt6129-NRT',
+121 silly get     'x-cache': 'HIT',
+121 silly get     'x-cache-hits': '1',
+121 silly get     'x-timer': 'S1524100698.120285,VS0,VE1',
+121 silly get     vary: 'Accept-Encoding, Accept' } ]
+122 verbose etag https://registry.npmjs.org/eslint-plugin-import from cache
+123 verbose get saving eslint-plugin-import to /home/yuan/.npm/registry.npmjs.org/eslint-plugin-import/.cache.json
+124 http 304 https://registry.npmjs.org/eslint-config-standard
+125 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+125 verbose headers   via: '1.1 varnish',
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   etag: '"5a9d03c3-1a2d9"',
+125 verbose headers   age: '1737',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'x-served-by': 'cache-hnd18721-HND',
+125 verbose headers   'x-cache': 'HIT',
+125 verbose headers   'x-cache-hits': '2',
+125 verbose headers   'x-timer': 'S1524100698.123140,VS0,VE0',
+125 verbose headers   vary: 'Accept-Encoding, Accept' }
+126 silly get cb [ 304,
+126 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+126 silly get     via: '1.1 varnish',
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     etag: '"5a9d03c3-1a2d9"',
+126 silly get     age: '1737',
+126 silly get     connection: 'keep-alive',
+126 silly get     'x-served-by': 'cache-hnd18721-HND',
+126 silly get     'x-cache': 'HIT',
+126 silly get     'x-cache-hits': '2',
+126 silly get     'x-timer': 'S1524100698.123140,VS0,VE0',
+126 silly get     vary: 'Accept-Encoding, Accept' } ]
+127 verbose etag https://registry.npmjs.org/eslint-config-standard from cache
+128 verbose get saving eslint-config-standard to /home/yuan/.npm/registry.npmjs.org/eslint-config-standard/.cache.json
+129 http 304 https://registry.npmjs.org/eslint-plugin-promise
+130 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+130 verbose headers   via: '1.1 varnish',
+130 verbose headers   'cache-control': 'max-age=300',
+130 verbose headers   etag: '"5aa5d3b5-9c28"',
+130 verbose headers   age: '1746',
+130 verbose headers   connection: 'keep-alive',
+130 verbose headers   'x-served-by': 'cache-hnd18739-HND',
+130 verbose headers   'x-cache': 'HIT',
+130 verbose headers   'x-cache-hits': '5',
+130 verbose headers   'x-timer': 'S1524100698.130231,VS0,VE0',
+130 verbose headers   vary: 'Accept-Encoding, Accept' }
+131 silly get cb [ 304,
+131 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+131 silly get     via: '1.1 varnish',
+131 silly get     'cache-control': 'max-age=300',
+131 silly get     etag: '"5aa5d3b5-9c28"',
+131 silly get     age: '1746',
+131 silly get     connection: 'keep-alive',
+131 silly get     'x-served-by': 'cache-hnd18739-HND',
+131 silly get     'x-cache': 'HIT',
+131 silly get     'x-cache-hits': '5',
+131 silly get     'x-timer': 'S1524100698.130231,VS0,VE0',
+131 silly get     vary: 'Accept-Encoding, Accept' } ]
+132 verbose etag https://registry.npmjs.org/eslint-plugin-promise from cache
+133 verbose get saving eslint-plugin-promise to /home/yuan/.npm/registry.npmjs.org/eslint-plugin-promise/.cache.json
+134 http 304 https://registry.npmjs.org/eslint-plugin-standard
+135 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+135 verbose headers   via: '1.1 varnish',
+135 verbose headers   'cache-control': 'max-age=300',
+135 verbose headers   etag: '"59dd4c35-5daf"',
+135 verbose headers   age: '7989',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'x-served-by': 'cache-hnd18728-HND',
+135 verbose headers   'x-cache': 'HIT',
+135 verbose headers   'x-cache-hits': '6',
+135 verbose headers   'x-timer': 'S1524100698.136796,VS0,VE0',
+135 verbose headers   vary: 'Accept-Encoding, Accept' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+136 silly get     via: '1.1 varnish',
+136 silly get     'cache-control': 'max-age=300',
+136 silly get     etag: '"59dd4c35-5daf"',
+136 silly get     age: '7989',
+136 silly get     connection: 'keep-alive',
+136 silly get     'x-served-by': 'cache-hnd18728-HND',
+136 silly get     'x-cache': 'HIT',
+136 silly get     'x-cache-hits': '6',
+136 silly get     'x-timer': 'S1524100698.136796,VS0,VE0',
+136 silly get     vary: 'Accept-Encoding, Accept' } ]
+137 verbose etag https://registry.npmjs.org/eslint-plugin-standard from cache
+138 verbose get saving eslint-plugin-standard to /home/yuan/.npm/registry.npmjs.org/eslint-plugin-standard/.cache.json
+139 http 304 https://registry.npmjs.org/eslint-plugin-node
+140 verbose headers { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+140 verbose headers   via: '1.1 varnish',
+140 verbose headers   'cache-control': 'max-age=300',
+140 verbose headers   etag: '"5a8fe0c3-19a6b"',
+140 verbose headers   age: '9933',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'x-served-by': 'cache-hnd18725-HND',
+140 verbose headers   'x-cache': 'HIT',
+140 verbose headers   'x-cache-hits': '2',
+140 verbose headers   'x-timer': 'S1524100698.151300,VS0,VE0',
+140 verbose headers   vary: 'Accept-Encoding, Accept' }
+141 silly get cb [ 304,
+141 silly get   { date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+141 silly get     via: '1.1 varnish',
+141 silly get     'cache-control': 'max-age=300',
+141 silly get     etag: '"5a8fe0c3-19a6b"',
+141 silly get     age: '9933',
+141 silly get     connection: 'keep-alive',
+141 silly get     'x-served-by': 'cache-hnd18725-HND',
+141 silly get     'x-cache': 'HIT',
+141 silly get     'x-cache-hits': '2',
+141 silly get     'x-timer': 'S1524100698.151300,VS0,VE0',
+141 silly get     vary: 'Accept-Encoding, Accept' } ]
+142 verbose etag https://registry.npmjs.org/eslint-plugin-node from cache
+143 verbose get saving eslint-plugin-node to /home/yuan/.npm/registry.npmjs.org/eslint-plugin-node/.cache.json
+144 http 304 https://registry.npmjs.org/supertest
+145 verbose headers { date: 'Thu, 19 Apr 2018 01:18:19 GMT',
+145 verbose headers   via: '1.1 varnish',
+145 verbose headers   'cache-control': 'max-age=300',
+145 verbose headers   etag: '"5ac97f84-c2a6"',
+145 verbose headers   age: '926',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+145 verbose headers   'x-cache': 'HIT',
+145 verbose headers   'x-cache-hits': '1',
+145 verbose headers   'x-timer': 'S1524100699.194469,VS0,VE1',
+145 verbose headers   vary: 'Accept-Encoding, Accept' }
+146 silly get cb [ 304,
+146 silly get   { date: 'Thu, 19 Apr 2018 01:18:19 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     'cache-control': 'max-age=300',
+146 silly get     etag: '"5ac97f84-c2a6"',
+146 silly get     age: '926',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-nrt6120-NRT',
+146 silly get     'x-cache': 'HIT',
+146 silly get     'x-cache-hits': '1',
+146 silly get     'x-timer': 'S1524100699.194469,VS0,VE1',
+146 silly get     vary: 'Accept-Encoding, Accept' } ]
+147 verbose etag https://registry.npmjs.org/supertest from cache
+148 verbose get saving supertest to /home/yuan/.npm/registry.npmjs.org/supertest/.cache.json
+149 http 200 https://registry.npmjs.org/mocha
+150 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+150 verbose headers   server: 'UploadServer',
+150 verbose headers   'cache-control': 'max-age=300',
+150 verbose headers   'last-modified': 'Wed, 18 Apr 2018 17:28:47 GMT',
+150 verbose headers   etag: '"5ad7804f-101a4b"',
+150 verbose headers   'x-npm-region': 'Asia',
+150 verbose headers   'content-encoding': 'gzip',
+150 verbose headers   'content-length': '57953',
+150 verbose headers   'accept-ranges': 'bytes',
+150 verbose headers   date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+150 verbose headers   via: '1.1 varnish',
+150 verbose headers   age: '13655',
+150 verbose headers   connection: 'keep-alive',
+150 verbose headers   'x-served-by': 'cache-nrt6132-NRT',
+150 verbose headers   'x-cache': 'HIT',
+150 verbose headers   'x-cache-hits': '3',
+150 verbose headers   'x-timer': 'S1524100698.195167,VS0,VE0',
+150 verbose headers   vary: 'Accept-Encoding, Accept' }
+151 silly get cb [ 200,
+151 silly get   { 'content-type': 'application/json; charset=UTF-8',
+151 silly get     server: 'UploadServer',
+151 silly get     'cache-control': 'max-age=300',
+151 silly get     'last-modified': 'Wed, 18 Apr 2018 17:28:47 GMT',
+151 silly get     etag: '"5ad7804f-101a4b"',
+151 silly get     'x-npm-region': 'Asia',
+151 silly get     'content-encoding': 'gzip',
+151 silly get     'content-length': '57953',
+151 silly get     'accept-ranges': 'bytes',
+151 silly get     date: 'Thu, 19 Apr 2018 01:18:18 GMT',
+151 silly get     via: '1.1 varnish',
+151 silly get     age: '13655',
+151 silly get     connection: 'keep-alive',
+151 silly get     'x-served-by': 'cache-nrt6132-NRT',
+151 silly get     'x-cache': 'HIT',
+151 silly get     'x-cache-hits': '3',
+151 silly get     'x-timer': 'S1524100698.195167,VS0,VE0',
+151 silly get     vary: 'Accept-Encoding, Accept' } ]
+152 verbose get saving mocha to /home/yuan/.npm/registry.npmjs.org/mocha/.cache.json
+153 http 404 https://registry.npmjs.org/eslint-plugin-mode
+154 verbose headers { 'content-type': 'application/json',
+154 verbose headers   'cache-control': 'max-age=0',
+154 verbose headers   'content-length': '2',
+154 verbose headers   'accept-ranges': 'bytes',
+154 verbose headers   date: 'Thu, 19 Apr 2018 01:18:19 GMT',
+154 verbose headers   via: '1.1 varnish',
+154 verbose headers   connection: 'keep-alive',
+154 verbose headers   'x-served-by': 'cache-hnd18726-HND',
+154 verbose headers   'x-cache': 'MISS',
+154 verbose headers   'x-cache-hits': '0',
+154 verbose headers   'x-timer': 'S1524100698.171674,VS0,VE1383',
+154 verbose headers   vary: 'Accept-Encoding' }
+155 silly get cb [ 404,
+155 silly get   { 'content-type': 'application/json',
+155 silly get     'cache-control': 'max-age=0',
+155 silly get     'content-length': '2',
+155 silly get     'accept-ranges': 'bytes',
+155 silly get     date: 'Thu, 19 Apr 2018 01:18:19 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-hnd18726-HND',
+155 silly get     'x-cache': 'MISS',
+155 silly get     'x-cache-hits': '0',
+155 silly get     'x-timer': 'S1524100698.171674,VS0,VE1383',
+155 silly get     vary: 'Accept-Encoding' } ]
+156 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/eslint-plugin-mode
+156 silly fetchPackageMetaData     at makeError (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+156 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+156 silly fetchPackageMetaData     at Request._callback (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+156 silly fetchPackageMetaData     at Request.self.callback (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:198:22)
+156 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+156 silly fetchPackageMetaData     at Request.emit (events.js:172:7)
+156 silly fetchPackageMetaData     at Request.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+156 silly fetchPackageMetaData     at emitOne (events.js:82:20)
+156 silly fetchPackageMetaData     at Request.emit (events.js:169:7)
+156 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+156 silly fetchPackageMetaData  error for eslint-plugin-mode { [Error: Registry returned 404 for GET on https://registry.npmjs.org/eslint-plugin-mode] pkgid: 'eslint-plugin-mode', statusCode: 404, code: 'E404' }
+157 silly rollbackFailedOptional Starting
+158 silly rollbackFailedOptional Finishing
+159 silly runTopLevelLifecycles Starting
+160 silly runTopLevelLifecycles Finishing
+161 silly install printInstalled
+162 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/eslint-plugin-mode
+162 verbose stack     at makeError (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+162 verbose stack     at CachingRegistryClient.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+162 verbose stack     at Request._callback (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+162 verbose stack     at Request.self.callback (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:198:22)
+162 verbose stack     at emitTwo (events.js:87:13)
+162 verbose stack     at Request.emit (events.js:172:7)
+162 verbose stack     at Request.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+162 verbose stack     at emitOne (events.js:82:20)
+162 verbose stack     at Request.emit (events.js:169:7)
+162 verbose stack     at IncomingMessage.<anonymous> (/home/yuan/.nvm/versions/node/v5.1.0/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+163 verbose statusCode 404
+164 verbose pkgid eslint-plugin-mode
+165 verbose cwd /home/yuan/myblog
+166 error Linux 4.4.0-116-generic
+167 error argv "/home/yuan/.nvm/versions/node/v5.1.0/bin/node" "/home/yuan/.nvm/versions/node/v5.1.0/bin/npm" "i" "eslint-config-standard" "eslint-plugin-import" "eslint-plugin-mode" "eslint-plugin-node" "eslint-plugin-promise" "eslint-plugin-standard" "istanbul" "mocha" "supertest" "--save-dev"
+168 error node v5.1.0
+169 error npm  v3.3.12
+170 error code E404
+171 error 404 Registry returned 404 for GET on https://registry.npmjs.org/eslint-plugin-mode
+171 error 404
+171 error 404 'eslint-plugin-mode' is not in the npm registry.
+171 error 404 You should bug the author to publish it (or use the name yourself!)
+171 error 404
+171 error 404 Note that you can also install from a
+171 error 404 tarball, folder, http url, or git url.
+172 verbose exit [ 1, true ]
