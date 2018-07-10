@@ -13,7 +13,9 @@ router.get('/',function (req,res,next){
 
   PostModel.getPosts(author)
     .then(function (posts) {
+      console.log("the Posts is *******************" + req.originalUrl.toString());
       res.render('posts',{
+        path: req.originalUrl.toString(),
         posts: posts
       })
     }).catch(next);
@@ -71,16 +73,20 @@ router.get('/:postId',function(req,res,next){
 
   Promise.all([
     PostModel.getPostById(postId),//get article info
+    CommentModel.getComments(postId),
     PostModel.incPv(postId)//pv add 1
     ])
       .then(function (result) {
+        console.log("the result is  *************************" + result);
         const post = result[0];
         const comments = result[1];
         if (!post) {
           throw new Error('the article is not exist');
         }
+        console.log("the comments is  ***************************" + comments);
 
         res.render('post',{
+          path: req.originalUrl.toString(),
           post: post,
           comments: comments
         })

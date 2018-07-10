@@ -6,14 +6,24 @@
     <form class="ui form segment" method="post">
       <div class="field required">
         <label>User name</label>
+        <div class="ui left icon input">
+          <i class="user icon"></i>
         <input placeholder="User name" type="text" name="name">
+        </div>
       </div>
       <div class="field required">
         <label>Password</label>
+        <div class="ui left icon input">
+          <i class="lock icon"></i>
         <input placeholder="Passsword" type="text" name="password">
+        </div>
       </div>
-      <input type="submit" class="ui button fluid" value="Log in">
+      <input type="submit" class="ui button fluid" value="登录">
     </form>
+    <div class="ui message" style="justify-content: center;display: flex">
+      New to us?
+      <a href="/signup">Sign up</a>
+    </div>
   </div>
 </div>
 

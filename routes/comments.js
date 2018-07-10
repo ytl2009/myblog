@@ -9,6 +9,7 @@ const CommentModel = require('../models/comments');
 
 //POST /comments create a msg
 router.post('/',checkLogin,function(req,res,next){
+  console.log("enter the comments post method ************************************");
 
   const author = req.session.user._id;
   const postId = req.fields.postId;

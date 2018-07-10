@@ -10,7 +10,7 @@ body {
 
 a:hover {
   border-bottom: 3px solid #4fc08d;
-}{
+}
 
 .button {
   background-color: #4fc08d !important;
@@ -21,6 +21,13 @@ a:hover {
   border-radius: 3px;
   width: 48px;
   height: 48px;
+  float: right;
+}
+
+.comments-avatar {
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
   float: right;
 }
 
@@ -63,6 +70,20 @@ a:hover {
 
 
 /*------- post-content -----------*/
+
+.content-list {
+  font-size: medium;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content-list:after {
+  content: "...";
+}
 
 .post-content h3 a {
   color: #4fc08d !important;

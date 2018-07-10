@@ -1,6 +1,6 @@
 
 <%- include('header') %>
-<% posts.forEach(function (post) { %>
+<% posts.forEach(function (post,path) { %>
   <%- include('components/post-content',{post: post}) %>
 <% }) %>
 
